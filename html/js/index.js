@@ -41,3 +41,16 @@ document.getElementById('form').addEventListener('submit', (e) => {
 
   onFormSubmit();
 })
+
+var Questions=[
+  {qno:'1',correct:"Selena Gomez",options:['Rihanna','Selena Gomez','Ariana Grande','Taylor Swift'],imageURL:'source/Picture1.png'},
+  {qno:'2',correct:"Daniel Radcliff",options:['Daniel Radcliff','Rupert Grint','Richard Harris','Michael Jordan'],imageURL:'source/Picture1.png'},
+  {qno:'3',correct:"Michael Jordan",options:['Christiano Ronaldo','Harrison Ford ','Michael Jordan','Tom Hanks'],imageURL:'source/Picture1.png'},
+  {qno:'4',correct:"Dwayne Johnson",options:['Vin Diesel','Dwayne Johnson','Kevin Hart','Jack Black'],imageURL:'source/Picture1.png'},
+  {qno:'5',correct:"Selena Gomez",options:['Sergio Ramos','Lionel Messi','Diego Armando Maradona Franco','Neymar da Silva Santos Júnior'],imageURL:'source/Picture1.png'},
+
+]
+
+      
+      
+      
