@@ -1,7 +1,8 @@
 body{
-    background-color: bisque;
+    background-image: url('images/bg.jpg');
 }
 .login{
+    background-color: #fff5fd;
     margin: 15% 0;
     border: solid;
     border-width: 1px;
