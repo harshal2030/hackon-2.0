@@ -1,0 +1,115 @@
+.logo-icon{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    margin-bottom: 0%;
+}
+body{
+  background-image:url("source/bg.jpg");
+  background-attachment: fixed
+}
+h3 {
+  color: antiquewhite;
+  font-style: oblique;
+  text-align: center;
+  margin-top: auto;
+}
+h2 {
+
+  color : rebeccapurple;
+  font-weight:900;
+  text-align: justify;
+  padding-left: 40px;
+}
+
+h4 {
+
+  color : #793a57;
+  font-weight:900;
+  padding-left: 40px;
+}
+
+
+
+.header{
+    padding: 20px;
+}
+
+.title{
+    padding-left: 15%;
+    padding-top: 0;
+    height: 50px;
+}
+.celeb{
+padding-left: 20%;
+padding-top: 100px;
+padding-right: 0;
+margin-right: 0px;
+width: 250px;
+height: 250px;
+float: left;
+}
+input[type="radio"]:checked + label {
+  color: #0b4db7;
+}
+
+#options{
+    padding-right:20%;
+    padding-top: 6%;
+    margin-left: 100px;
+    margin-top: 0;
+    margin-right: 0px;
+    width : 300px;
+    height: 200px;
+    float: right;
+}
+
+
+button:hover{
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+.next{
+    background-color:#0b4db7 ;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: serif;
+    margin-left: 13%;
+    color: white;
+}
+.headerbutton {
+  border-color: black;
+    border-bottom: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    background-color: #e5eace;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    float: right;
+}
+
+
+
+  button{
+    cursor: pointer;
+  }
+
+
+
+
+#question {
+
+      color: #410ce2;
+      font-weight: 900;
+      font-size: 24px;
+}
