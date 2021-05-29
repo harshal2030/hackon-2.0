@@ -8,6 +8,7 @@ import { __prod__ } from './constants';
 import { UserResolver } from './resolvers/user';
 import { MikroORM } from '@mikro-orm/core';
 import config from './mikro-orm.config';
+import { ScoreResolver } from './resolvers/score';
 
 const main = async () => {
   const orm = await MikroORM.init(config);
@@ -18,7 +19,7 @@ const main = async () => {
 
   const apolloServer = new ApolloServer({
     schema: await buildSchema({
-      resolvers: [UserResolver],
+      resolvers: [UserResolver, ScoreResolver],
       validate: false,
     }),
     context: ({ req, res }) => ({ req, res, em: orm.em })

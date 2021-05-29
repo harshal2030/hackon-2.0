@@ -1,4 +1,4 @@
-import { Score } from 'src/entities/Score';
+import { Score } from '../entities/Score';
 import { MyContext } from 'src/types';
 import { Resolver, Query, Arg, Ctx, InputType, Field, ObjectType, Mutation, Int } from 'type-graphql';
 import { User } from '../entities/User';
@@ -22,9 +22,9 @@ class ScoreType {
 }
 
 @Resolver()
-export class UserResolver {
+export class ScoreResolver {
   @Query(() => ScoreRes)
-  async me(
+  async getScore(
     @Arg('email', () => String) email: string,
     @Ctx() { em }: MyContext
   ): Promise<ScoreRes> {
