@@ -17,10 +17,10 @@ export class Score {
   updateAt = new Date();
 
   @Field(() => String)
-  @Property({ type: 'text', unique: true })
+  @Property({ type: 'text' })
   email!: string;
 
   @Field(() => Int)
-  @Property({ type: 'int' })
+  @Property({ type: 'INTEGER' })
   score!: number;
 }
