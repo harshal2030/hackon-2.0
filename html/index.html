@@ -7,19 +7,19 @@
 </head>
 <body>
     <center>
-        <div class="login"><h1 id="loginh">Login</h1>
-        
-            <label for="username" class="username">Username:</label>
-            <input type="text" name="username" id="username" placeholder="Username">
+        <div class="login"><h1 id="loginh">Enter details to start quiz</h1>
+        <form id="form">
+            <label for="name" class="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Name">
             <br>
-            <label for="password" class="password">Password:</label>
-            <input type="password" name="password" id="password" placeholder="Password">
+            <label for="email" class="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Email">
             <br>
-            <button onclick="window.location.href='quiz.html'">Login</button>
-            
+            <button type="submit">Start Quiz</button>
+        </form>
         </div>
     </center>
 
-    
+    <script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>
