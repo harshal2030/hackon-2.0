@@ -15,7 +15,7 @@ const onFormSubmit = async () => {
   }
   `
 
-  const res = await fetch('http://localhost:4000/graphql', {
+  const res = await fetch('/graphql', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -31,7 +31,9 @@ const onFormSubmit = async () => {
     return;
   }
 
-  window.location.href = '/quiz.html'
+  localStorage.setItem('email', email);
+  localStorage.setItem('name', name);
+  window.location.href = `/quiz.html`
 
   return false;
 }
