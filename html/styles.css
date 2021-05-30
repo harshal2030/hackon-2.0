@@ -1,6 +1,16 @@
 body{
     background-image: url('source/bg.jpg');
 }
+.header{
+      padding: 20px;
+}
+.logo-icon{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-bottom: 0;
+}
+
 .login{
     background-color: #fff5fd;
     margin: 15% 0;
@@ -23,7 +33,7 @@ input[type=text], input[type=email] {
     /* margin-left: 10%; */
 }
 button {
-    
+
     background-color: #cf0000;
     color: white;
     padding: 14px 20px;
@@ -32,5 +42,3 @@ button {
     cursor: pointer;
     width: 50%;
   }
-
-
